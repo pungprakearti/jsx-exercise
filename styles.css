@@ -1,0 +1,26 @@
+body {
+  background-color: grey;
+}
+
+.tweet {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 20px;
+}
+
+.tweet > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+}
